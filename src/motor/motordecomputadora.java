@@ -25,9 +25,9 @@ public class motordecomputadora implements computadora {
             Registry registry = LocateRegistry.createRegistry(1099);
             registry.rebind("Computadora", stub);
             
-            System.out.println("motor de computadora Obligado");
+            System.out.println("motor de computadora iniciado");
         } catch (Exception e) {
-            System.err.println("motor de computadora Excepción:");
+            System.err.println("motor de computadora error:");
             e.printStackTrace();
         }
     }
