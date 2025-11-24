@@ -21,7 +21,7 @@ public class computadoraPi {
             pi tarea = new pi(digits);
             BigDecimal pi = comp.executeTask(tarea);
             
-            System.out.println("Pi calculado ed " + digits + " digitos:");
+            System.out.println("Pi calculado es " + digits + " digitos:");
             System.out.println(pi);
         } catch (Exception e) {
             System.err.println("Computadora pi excepcion:");
